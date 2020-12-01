@@ -1,0 +1,38 @@
+.about {
+  &__info {
+    text-align: center;
+
+    h2 {
+      font-size: 3rem;
+      color: var(--color-black);
+      font-weight: 400;
+
+      span {
+        font-size: 3.5rem;
+        color: var(--color-primary);
+        font-weight: 500;
+      }
+    }
+
+    p {
+      width: 100ch;
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 1rem auto;
+      font-weight: 400;
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__btns {
+    @include flexbox();
+
+    a {
+      font-size: 1.4rem;
+      font-weight: 400;
+      padding: 1rem 2rem;
+      border: 1px solid red;
+      margin: 0 0.5rem;
+    }
+  }
+}
