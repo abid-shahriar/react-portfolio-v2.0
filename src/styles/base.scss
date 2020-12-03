@@ -20,19 +20,22 @@ body {
 }
 
 #root {
-  max-width: 1300px;
+  max-width: 100%;
   min-height: 100vh;
   margin: 0 auto;
-  @include flexbox;
+  @include flexbox(column);
   align-items: flex-end;
 }
 
 .section {
   padding: 8rem 0;
   min-height: 100vh;
-  max-height: 100vh;
   @include flexbox();
   width: 100%;
+
+  &__wrapper {
+    max-width: 1300px;
+  }
 }
 
 a {
