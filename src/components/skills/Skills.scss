@@ -1,3 +1,29 @@
 .skills {
   background-color: rgba(5, 90, 90, 0.1);
+
+  .Skills__container {
+    width: 100%;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    // .swiper-wrapper {
+    //   width: 100%;
+    //   overflow: hidden;
+    // }
+
+    .swiper-slide {
+      height: 300px;
+    }
+  }
+
+  .skill-box {
+    width: 100%;
+    height: 300px;
+    background-color: #ccc;
+    border: 1px solid red;
+  }
 }
