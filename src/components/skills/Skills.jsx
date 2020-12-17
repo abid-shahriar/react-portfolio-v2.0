@@ -7,7 +7,7 @@ export default function Skills() {
         <div className="Skills__container">
           <div className="skill-box">
             <h3>Frontend Skills</h3>
-            <div className="skill-box_skills">
+            <div className="skill-box__skills">
               <ul>
                 <li>HTML</li>
                 <li>CSS/SASS</li>
@@ -19,7 +19,7 @@ export default function Skills() {
 
           <div className="skill-box">
             <h3>Backend Skills</h3>
-            <div className="skill-box_skills">
+            <div className="skill-box__skills">
               <ul>
                 <li>NodeJS</li>
                 <li>Express</li>
@@ -31,7 +31,7 @@ export default function Skills() {
 
           <div className="skill-box">
             <h3>Other Skills</h3>
-            <div className="skill-box_skills">
+            <div className="skill-box__skills">
               <ul>
                 <li>Git/Github</li>
                 <li>Redux</li>
