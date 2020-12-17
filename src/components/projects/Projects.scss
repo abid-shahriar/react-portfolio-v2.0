@@ -27,6 +27,31 @@
       text-align: center;
     }
 
+    p {
+      font-size: 1.5rem;
+      background-color: rgba(5, 90, 90, 0.1);
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    .btns {
+      padding: 1rem 0;
+      background-color: rgba(5, 90, 90, 0.1);
+      width: 100%;
+      @include flexbox;
+
+      a {
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding: 0.5rem 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.288);
+        box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.212);
+        margin: 0 0.5rem;
+        border-radius: 2px;
+      }
+    }
+
     img {
       max-width: 300px;
     }

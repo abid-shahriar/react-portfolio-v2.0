@@ -8,8 +8,8 @@ const ProjectBox = () => {
       <img src={project.imgSrc} alt="project" />
       <p>{project.desc}</p>
       <div className="btns">
-        <a href={project.codeSrc}>code</a>
-        <a href={project.liveSrc}>live</a>
+        <a href={project.codeSrc}>Code</a>
+        <a href={project.liveSrc}>Demo</a>
       </div>
     </div>
   ));
