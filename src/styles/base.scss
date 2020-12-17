@@ -29,6 +29,7 @@ body {
   overflow: scroll;
   overflow-x: hidden;
   height: 100vh;
+  scroll-snap-type: mandatory;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
@@ -45,7 +46,7 @@ section {
 
   &__wrapper {
     max-width: 1300px;
-    min-width: 1300px;
+    min-width: 1200px;
   }
 }
 
