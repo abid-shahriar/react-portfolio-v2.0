@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="section about" id="about">
+    <section className="section about" id="about">
       <div className="section__wrapper">
         <div className="about__info">
           <h2>
@@ -15,6 +15,6 @@ export default function About() {
           <a href="https://github.com/abid-shahriar">send me a message</a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
