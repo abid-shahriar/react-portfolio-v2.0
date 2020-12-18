@@ -4,19 +4,22 @@ export default function Contact() {
   return (
     <section className="section contact" id="contact">
       <div className="section__wrapper">
-        <div className="conatact__container">
-          <form action="" className="Contact__form">
+        <div className="contact__container">
+          <form action="" className="contact__form">
             <div className="name">
-              <label htmlFor="name">Name</label>
-              <input name="name" type="text" placeholder="Your Name Here" />
+              <label htmlFor="name">Your Name</label>
+              <input name="name" type="text" placeholder="example: john Doe" />
             </div>
             <div className="email">
-              <label htmlFor="email">Email</label>
-              <input name="email" type="text" placeholder="Your Email Here" />
+              <label htmlFor="email">Your Email</label>
+              <input
+                name="email"
+                type="text"
+                placeholder="example: johndoe@gmail.com"
+              />
             </div>
             <div className="message">
-              <label htmlFor="message">Name</label>
-              <input name="message" type="text" placeholder="Your Message" />
+              <textarea name="message" placeholder="Your Message" />
             </div>
           </form>
         </div>
