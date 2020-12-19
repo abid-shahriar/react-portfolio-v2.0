@@ -18,13 +18,7 @@ export default function About() {
           >
             github
           </a>
-          <a
-            href="https://github.com/abid-shahriar"
-            target="_blank"
-            rel="noreferrer"
-          >
-            send me a message
-          </a>
+          <a href="#conatct">send me a message</a>
         </div>
       </div>
     </section>
