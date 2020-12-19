@@ -11,8 +11,20 @@ export default function About() {
           <p>A web designer and a front-end web developer.</p>
         </div>
         <div className="about__btns">
-          <a href="https://github.com/abid-shahriar">github</a>
-          <a href="https://github.com/abid-shahriar">send me a message</a>
+          <a
+            href="https://github.com/abid-shahriar"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github
+          </a>
+          <a
+            href="https://github.com/abid-shahriar"
+            target="_blank"
+            rel="noreferrer"
+          >
+            send me a message
+          </a>
         </div>
       </div>
     </section>
