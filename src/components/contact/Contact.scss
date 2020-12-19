@@ -74,3 +74,15 @@
     }
   }
 }
+
+.footer {
+  &__social-icons {
+    .icon-box {
+      a {
+        img {
+          height: 35px;
+        }
+      }
+    }
+  }
+}
