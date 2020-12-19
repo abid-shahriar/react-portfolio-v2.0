@@ -8,7 +8,7 @@ const Footer = () => {
         <SocialIconBox />
 
         <div className="footer__message">
-          <p>Retro Style Portfolio - Built with React</p>
+          <p>Retro Style Portfolio - Built with ReactJS</p>
           <p>by</p>
           <p>
             <a href="https://github.com/abid-shahriar">Abid Shahriar</a>
