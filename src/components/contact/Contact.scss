@@ -1,5 +1,7 @@
 .contact {
   background-color: rgba(5, 90, 90, 0.1);
+  position: relative;
+  padding-bottom: 0;
 
   &__form {
     text-align: left;
@@ -76,13 +78,32 @@
 }
 
 .footer {
+  width: 100%;
+  background-color: #ddd;
+  margin-top: 2rem;
+  @include flexbox;
+  padding: 1rem;
+
   &__social-icons {
+    @include flexbox;
+
     .icon-box {
+      margin: 1rem;
       a {
         img {
           height: 35px;
         }
       }
+    }
+  }
+
+  &__message {
+    text-align: center;
+    font-size: 1.5rem;
+
+    a {
+      text-decoration: underline;
+      color: crimson;
     }
   }
 }
