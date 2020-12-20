@@ -18,6 +18,10 @@
     justify-content: flex-start;
     min-width: 300px;
 
+    &:first-child {
+      transform: translateY(3rem);
+    }
+
     h3 {
       font-size: 2.5rem;
       font-weight: 400;
