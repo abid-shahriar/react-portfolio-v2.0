@@ -21,6 +21,9 @@
     &:first-child {
       transform: translateY(-10rem);
     }
+    &:last-child {
+      transform: translateY(10rem);
+    }
 
     h3 {
       font-size: 2.5rem;
