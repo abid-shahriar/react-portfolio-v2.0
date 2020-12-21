@@ -2,7 +2,7 @@ import React from "react";
 import fb from "../../asset/svgs/facebook.svg";
 import insta from "../../asset/svgs/instagram.svg";
 import linkedin from "../../asset/svgs/linkedin.svg";
-import email from "../../asset/svgs/email-4.svg";
+import email from "../../asset/svgs/email.svg";
 
 const SocialIconBox = () => {
   return (
