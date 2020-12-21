@@ -33,6 +33,15 @@ const SocialIconBox = () => {
           <img src={linkedin} alt="abid shahriar facebook" />
         </a>
       </div>
+      <div className="icon-box email">
+        <a
+          href="https://linkedin.com/abid.sh.akash"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedin} alt="abid shahriar facebook" />
+        </a>
+      </div>
     </div>
   );
 };
