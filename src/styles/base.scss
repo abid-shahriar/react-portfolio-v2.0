@@ -53,4 +53,8 @@ section {
 a {
   text-decoration: none;
   color: var(--color-black);
+
+  &:hover {
+    background-color: #fff;
+  }
 }
