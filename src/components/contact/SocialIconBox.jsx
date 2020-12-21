@@ -21,7 +21,7 @@ const SocialIconBox = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={insta} alt="abid shahriar istagram" />
+          <img src={insta} alt="abid shahriar instagram" />
         </a>
       </div>
       <div className="icon-box linkedin">
@@ -30,7 +30,7 @@ const SocialIconBox = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linkedin} alt="abid shahriar facebook" />
+          <img src={linkedin} alt="abid shahriar linkedin" />
         </a>
       </div>
       <div className="icon-box email">
@@ -39,7 +39,7 @@ const SocialIconBox = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linkedin} alt="abid shahriar facebook" />
+          <img src={linkedin} alt="abid shahriar gmail" />
         </a>
       </div>
     </div>
