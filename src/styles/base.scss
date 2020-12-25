@@ -47,9 +47,12 @@ section {
   &__wrapper {
     max-width: 1300px;
     min-width: 1200px;
+    padding-top: 6rem;
 
     @media (max-width: 1300px) {
       max-width: 100%;
+      min-width: 1000px;
+      padding: 0 2rem;
     }
   }
 }
