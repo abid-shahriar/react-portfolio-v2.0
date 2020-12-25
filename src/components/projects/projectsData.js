@@ -9,7 +9,7 @@ const projectsData = [
   {
     id: 1,
     title: "Photo Editor",
-    desc: "built with react",
+    desc: "react, css/sass",
     imgSrc: photoEditor,
     codeSrc: "https://github.com/abid-shahriar/simple-photo-editor",
     liveSrc: "https://abid-shahriar.github.io/simple-photo-editor/",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "todo app",
-    desc: "html, css/sass, vanilla javascript",
+    desc: "html, css/sass, javascript",
     imgSrc: todoApp,
     codeSrc: "https://github.com/abid-shahriar/toDo-app",
     liveSrc: "https://abid-shahriar.github.io/toDo-app/",
@@ -25,7 +25,7 @@ const projectsData = [
   {
     id: 3,
     title: "CSS position GUI",
-    desc: "built with react",
+    desc: "react, css/sass",
     imgSrc: cssPosition,
     codeSrc: "https://github.com/abid-shahriar/react-css-position-gui",
     liveSrc: "https://abid-shahriar.github.io/react-css-position-gui",

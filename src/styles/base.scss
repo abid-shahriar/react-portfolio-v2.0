@@ -48,7 +48,8 @@ section {
     max-width: 1300px;
     min-width: 1200px;
 
-    @media (max-width: 300px) {
+    @media (max-width: 1300px) {
+      max-width: 100%;
     }
   }
 }

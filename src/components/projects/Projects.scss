@@ -4,18 +4,16 @@
     @include flexbox;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex: 1 1;
   }
 
   .project-box {
-    width: 30%;
+    width: 26%;
     border: 1px solid rgba(255, 255, 255, 0.37);
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.212);
     border-radius: 3px;
     overflow: hidden;
     @include flexbox(column);
     justify-content: flex-start;
-    min-width: 300px;
     margin-bottom: 4rem;
 
     h3 {
@@ -53,7 +51,8 @@
     }
 
     img {
-      max-width: 300px;
+      height: 150px;
+      width: 100%;
     }
   }
 }

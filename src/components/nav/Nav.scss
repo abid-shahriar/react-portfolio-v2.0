@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1000;
 
   .nav-menu {
     max-width: 1300px;
@@ -33,6 +34,7 @@
 
         &:hover {
           color: var(--color-primary);
+          background-color: transparent;
           transition: 0.25s;
         }
       }
